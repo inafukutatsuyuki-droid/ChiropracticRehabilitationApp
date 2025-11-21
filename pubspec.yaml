@@ -1,0 +1,27 @@
+name: pain_cause_self_checker
+description: "痛み原因セルフ判定アプリ - Flutter オフラインセルフチェック"
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_riverpod: ^2.4.0
+  go_router: ^13.2.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  google_mobile_ads: ^4.0.0
+  in_app_purchase: ^3.1.6
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
